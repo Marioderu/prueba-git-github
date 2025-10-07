@@ -18,18 +18,6 @@ public class Insercion {
 		int[] v = new int[20];
 		int aux, j;
 		
-//		for (int i = 0; i < v.length; i++) {
-//			v[i] = r.nextInt(10, 100);
-//		}
-		
-//		System.out.println("\n---------- SIN ORDENAR ----------\n");
-//		
-//		for (int i = 0; i < v.length; i++) {
-//			System.out.print(" [ " + v[i] + " ]");
-//			if ((i + 1) % 10 == 0)
-//				System.out.println();
-//		}
-		
 		for (int i = 0; i < v.length; i++) {
 			v[i] = r.nextInt(10, 100);
 			aux = v[i];
@@ -52,5 +40,4 @@ public class Insercion {
 				System.out.println();
 		}
 	}
-
 }
